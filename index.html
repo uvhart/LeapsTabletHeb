@@ -30,15 +30,15 @@
               </p>
               <p>על מנת ליצור את הצורות הללו עליך להזיז את הריבועים הירוקים המופיעים על המסך</p>
               <div class="bottom-text">
-                <p class="highlight">גרור את הבלוק השמאלי ביותר או הימני ביותר למקום אחר</p>
+                <p class="highlight">גרור את הריבוע השמאלי ביותר או הימני ביותר למקום אחר</p>
                 <br><button id="done-training-1" class="hidden">המשך</button>
               </div>
             </div>
             <div id="training-2" class="hidden">
-              <p>אתה יכול להזיז את הבלוקים המופיעים בקצוות הצורה בלבד</p>
+              <p>אתה יכול להזיז את הריבועים המופיעים בקצוות הצורה בלבד</p>
 
               ​<div class="bottom-text">
-                <p>אבל אתה יכול להזיז כמה בלוקים שאתה רוצה
+                <p>אבל אתה יכול להזיז כמה ריבועים שאתה רוצה
                   <br>עד שתמצא צורה יפה ומעניינת בעיניך</p>
                 <br><button id="done-training-2">הבנתי </button>
               </div>
@@ -142,7 +142,8 @@
   <script src="deps/underscore.js"></script>
   <script src="deps/redmetrics.js"></script>
 
-  <script src="bundle.js"></script>
-
+  <!-- build:js -->
+  <script type="module" src="src/game.js"></script>
+  <!-- endbuild -->
   </body>
 </html>
