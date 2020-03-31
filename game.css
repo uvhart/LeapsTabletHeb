@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  direction: rtl;
 }
 
 button {
@@ -57,7 +58,7 @@ a {
   -webkit-transform-origin: 0% 0%;
   -ms-transform-origin: 0% 0%;
 
-  font-family: Arial;
+  font-family: David;
   font-size: 20px;
   color: limegreen;
 
